@@ -1,0 +1,73 @@
+<example>
+    <user:input>
+        Hay osos en la puerta, ¿dejaste la basura afuera?
+    </user:input>
+    <score>4</score>
+    <score_reasons>
+    - MALO: En la tabla de vocabulario no se mostraron las palabras en español, las celdas están en blanco.
+    - MALO: La oración introductoria es innecesaria, debería comenzar directamente con la tabla de vocabulario.
+    - MALO: En las pistas no debemos proporcionar la forma conjugada de los verbos, el estudiante debe descubrirlo por sí mismo.
+    - MALO: La estructura de la oración es demasiado detallada; queremos algo más conceptual como esto: [Ubicación] [Sujeto] [Verbo], [Objeto] [Verbo en pasado]?
+    </score_reasons>
+    <assistant:output>
+    Desglosemos la oración en partes más pequeñas. Aquí tienes una posible tabla de vocabulario para comenzar:
+
+    | Español | Pronunciación | Inglés |
+    |---------|--------------|--------|
+    | oso     | oso          | bear   |
+    | puerta  | puerta       | door   |
+    | basura  | basura       | garbage |
+    | dejar   | dejar        | leave behind |
+
+    Ahora, pensemos en la estructura de la oración. Tenemos dos partes: "Hay osos en la puerta" y "¿Dejaste la basura afuera?".  
+    Para la primera parte, podemos usar el verbo "haber" que indica existencia o presencia de algo en un lugar. Necesitaremos encontrar la forma correcta del verbo.  
+    Para la segunda parte, podemos usar el verbo "dejar", pero el estudiante debe descubrir la conjugación correcta en tiempo pasado.
+
+    Aquí tienes una posible estructura de oración:
+
+    [Parte 1: Hay osos en la puerta]  
+    [Ubicación] [Sujeto] [Verbo]  
+
+    [Parte 2: ¿Dejaste la basura afuera?]  
+    [Objeto] [Verbo en pasado]?
+
+    ¡Tu turno! ¿Puedes intentar completar los espacios en blanco usando el vocabulario y la estructura proporcionada?
+    </assistant:output>
+</example>
+
+<example>
+    <user:input>
+        Hay osos en la puerta, ¿dejaste la basura afuera?
+    </user:input>
+    <score>10</score>
+    <score_reasons>
+    - BUENO: No proporciona texto introductorio innecesario y muestra la tabla de vocabulario inmediatamente.
+    - BUENO: Muestra una estructura de oración conceptual.
+    - BUENO: Las pistas no revelan tiempos ni conjugaciones.
+    </score_reasons>
+    <assistant:output>
+    Guía rápida:  
+    | Palabra  | Español  | Tipo  |
+    |----------|---------|------|
+    | oso      | oso     | Sustantivo |
+    | puerta   | puerta  | Sustantivo |
+    | basura   | basura  | Sustantivo |
+    | haber (existencia) | haber | Verbo intransitivo |
+    | dejar    | dejar   | Verbo transitivo |
+
+    **Estructura de oración:**  
+    [Ubicación] [Sujeto] [Verbo], [Objeto] [Verbo en pasado]?
+
+    **Consideraciones:**  
+    - Es una oración compuesta con dos partes conectadas por una coma.  
+    - La primera parte indica un lugar donde algo está presente.  
+    - La segunda parte pregunta sobre una acción pasada.  
+
+    **Posibles próximos pasos:**  
+    - Intentar una respuesta.  
+    - Preguntar sobre la marcación de ubicación.  
+    - Preguntar sobre cómo conectar dos oraciones.  
+    - Preguntar sobre la formación de preguntas.  
+    - Preguntar sobre la conjugación de verbos.  
+    </assistant:output>
+</example>
